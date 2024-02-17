@@ -1,0 +1,44 @@
+
+.background-gradiant{
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+    background-size: 100% 200%;
+   animation: gradient-animation 18s ease infinite;
+} 
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  @font-face {
+    font-family: 'Minecraft';
+    src: url(/fonts/MinecraftTen-VGORe.ttf);
+  }
+
+  .name{
+    font-family: 'Minecraft' , sans-serif;
+    color: whitesmoke;
+  }
+
+  .lead{
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+  }
+
+  span{
+    font-weight: bold;
+  }
+  
+.profilepic{
+    height: 200px;
+    border-radius: 50%;
+}
+ 
