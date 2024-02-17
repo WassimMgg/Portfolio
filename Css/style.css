@@ -19,18 +19,20 @@
 
   @font-face {
     font-family: 'Minecraft';
-    src: url(/fonts/MinecraftTen-VGORe.ttf);
+    src: url(/fonts/MinecraftTen-VGORe.ttf) format('truetype');
   }
 
   .name{
     font-family: 'Minecraft' , sans-serif;
     font-size: 4rem;
+    text-align: center;
   }
 
   .lead{
     font-size: 40px;
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
+    text-align: center;
   }
 
   span{
