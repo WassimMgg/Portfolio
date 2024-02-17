@@ -19,7 +19,9 @@
 
   @font-face {
     font-family: 'Minecraft';
-    src: url(/fonts/MinecraftTen-VGORe.ttf) format('truetype');
+    src: url(/fonts/MinecraftTen-VGORe.ttf) format('ttf');
+    
+    font-style: normal;
   }
 
   .name{
