@@ -18,14 +18,18 @@
   }
 
   @font-face {
-    font-family: 'Minecraft';
+    font-family: 'Minecraft Ten';
     src: url(/fonts/MinecraftTen-VGORe.ttf) format("truetype");
-
     font-style: normal;
   }
 
+  @font-face {
+    font-family: 'Minecraft ';
+    src: url(/fonts/minecraft_font.ttf) format("truetype");
+    font-style: normal;
+  }
   .name{
-    font-family: 'Minecraft Ten' , sans-serif;
+    font-family: 'Minecraft', sans-serif;
     font-size: 4rem;
     text-align: center;
   }
