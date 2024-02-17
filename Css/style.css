@@ -24,7 +24,7 @@
 
   .name{
     font-family: 'Minecraft' , sans-serif;
-    color: whitesmoke;
+    font-size: 4rem;
   }
 
   .lead{
@@ -42,3 +42,10 @@
     border-radius: 50%;
 }
  
+.data{
+    font-size: 2rem;
+}
+
+.title2{
+    font-size: 3rem;
+}
