@@ -48,6 +48,7 @@
 .title2{
     font-size: 3rem;
     font-family: 'MinePlayer', sans-serif;
+    text-align: center;
 }
 
 .nav-item , .copyright{
