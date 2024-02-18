@@ -16,7 +16,9 @@
       background-position: 0% 50%;
     }
   }
-
+.background{
+    background-color: antiquewhite;
+}
   .name{
     font-family: 'Minecraft', sans-serif;
     font-size: 4rem;
@@ -24,7 +26,7 @@
   }
 
   .lead{
-    font-size: 40px;
+    font-size: 3rem;
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     text-align: center;
